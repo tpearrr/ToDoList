@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La mia Todolist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To do list</h1>
+        
+        <div class="contenitore-input">
+            <input type="text" id="inputAttivita" placeholder="Aggiungi una nuova attività...">
+            <button id="btnAggiungi">Aggiungi</button>
+        </div>
+
+        <div class="contatore-attivita" id="contatoreAttivita">0 attività</div>
+
+        <ul class="lista-attivita" id="listaAttivita">
+            <!-- Le attività verranno aggiunte qui dinamicamente -->
+        </ul>
+
+        <div class="stato-vuoto" id="statoVuoto">
+            Nessuna attività ancora. Aggiungi la tua prima attività!
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
